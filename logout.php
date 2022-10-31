@@ -1,4 +1,5 @@
 <?php
+ session_start();
 function function_alert($message) {
       
     // Display the alert box 
@@ -7,7 +8,18 @@ function function_alert($message) {
 
 // Function call 
 function_alert("Do you wanna logout :(");
-?>
+
+      if($_SESSION!=NULL){
+       
+     session_unset();
+     session_destroy();
+      }
+      else{
+        header("Location:index.php");
+        
+      }
+      
+      ?>
 <html>
 <title>Logout</title>
     <link rel="stylesheet" href="logout.css">
@@ -18,7 +30,7 @@ function_alert("Do you wanna logout :(");
 <div class="wrapper">
     <img src="image.jpg" alt="" width="90px">
 <h1>Logged Out</h1>
-<a href="index.php">
+<a href="login2.php">
     Click here to login again..
 </a>
 </div>
