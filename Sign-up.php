@@ -161,7 +161,7 @@ $con->close();
 <body>
 
     <div class="container">
-        <form id="signup" class="form" action="Sign-up.php" method="post">
+        <form id="signup" class="form" onsubmit="validate()" action="Sign-up.php" method="post">
             <h2>Sign Up</h2>
             <p>Please fill in this form to create an account!</p>
             <hr>
@@ -173,7 +173,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="username">Username:</label> -->
-                    <input type="text" name="name" id="username" placeholder="Username" autocomplete="off">
+                    <input type="text" name="name" id="username" placeholder="Username" >
                     <small></small>
                 </div>
             </div>
@@ -187,7 +187,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="email">Email:</label> -->
-                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="off">
+                    <input type="email" name="email" id="email" placeholder="Email" >
                     <small></small>
                 </div>
             </div>
@@ -200,7 +200,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="password">Password:</label> -->
-                    <input type="password" name="password" id="password" placeholder="Password" autocomplete="off">
+                    <input type="password" name="password" id="password" placeholder="Password" >
                     <small></small>
                 </div>
             </div>
@@ -218,7 +218,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="confirm-password">Confirm Password:</label> -->
-                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" autocomplete="off">
+                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" >
                     <small></small>
                 </div>
             </div>
