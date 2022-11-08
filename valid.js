@@ -10,7 +10,7 @@ const checkUsername = () => {
 
     let valid = false;
 
-    const min = 3,
+    const min = 5,
         max = 25;
 
     const username = usernameEl.value.trim();
@@ -120,10 +120,8 @@ const showSuccess = (input) => {
 }
 
 
-form.addEventListener('submit', function (e) {
-    // prevent the form from submitting
-    e.preventDefault();
 
+    function validate(){
     // validate fields
     let isUsernameValid = checkUsername(),
         isEmailValid = checkEmail(),
@@ -139,7 +137,7 @@ form.addEventListener('submit', function (e) {
     if (isFormValid) {
 
     }
-});
+};
 
 
 const debounce = (fn, delay = 500) => {
