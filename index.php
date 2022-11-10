@@ -60,7 +60,7 @@ header("Location:user.php");
             </a>
             </li>
             <li class="nav-item  ml-25">
-            <a href="login.php">
+            <a>
               <img style=" margin-left: 425px;" src="https://see.fontimg.com/api/renderfont4/VGORe/eyJyIjoiZnMiLCJoIjozMywidyI6MTUwMCwiZnMiOjIyLCJmZ2MiOiIjRkZGRUZFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/U01JVC1FLVNIT1A/minecraft-ten.png" alt="Minecraft fonts"></a>
             </li>
         </ul>
