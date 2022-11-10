@@ -103,7 +103,7 @@ body {
                         </div>
                     </div>
                     <div class="d-flex flex-row align-items-center qty"><i class="fa fa-minus text-danger"></i>
-                        <h5 class="text-grey mt-1 mr-1 ml-1">2</h5><i class="fa fa-plus text-success"></i></div>
+                        <h5 class="text-grey mt-1 mr-1 ml-1">1</h5><i class="fa fa-plus text-success"></i></div>
                     <div>
                         <h6 class="text-grey">$<?php echo $rows['nPrice'];   ?></h6>
                     </div>
