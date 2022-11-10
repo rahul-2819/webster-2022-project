@@ -173,7 +173,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="username">Username:</label> -->
-                    <input type="text" name="name" id="username" placeholder="Username" >
+                    <input type="text" name="name" id="username" placeholder="Username" required="required" >
                     <small></small>
                 </div>
             </div>
@@ -187,7 +187,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="email">Email:</label> -->
-                    <input type="email" name="email" id="email" placeholder="Email" >
+                    <input type="email" name="email" id="email" placeholder="Email" required="required" >
                     <small></small>
                 </div>
             </div>
@@ -200,7 +200,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="password">Password:</label> -->
-                    <input type="password" name="password" id="password" placeholder="Password" >
+                    <input type="password" name="password" id="password" placeholder="Password" required="required" >
                     <small></small>
                 </div>
             </div>
@@ -218,7 +218,7 @@ $con->close();
                         </span>
                     </div>
                     <!-- <label for="confirm-password">Confirm Password:</label> -->
-                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" >
+                    <input type="password" name="confirm_password" id="confirm_password" placeholder="Confirm Password" required="required" >
                     <small></small>
                 </div>
             </div>
