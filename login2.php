@@ -31,9 +31,9 @@ if(isset($_POST['email']) && isset($_POST['password'])){
     
 }
 }
-else{
-   echo "check your detail";
-}
+// else{
+//    echo "check your detail";
+// }
 $con->close();
 ?>
 <html>
