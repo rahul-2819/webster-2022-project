@@ -47,7 +47,7 @@ $con->close();
         <div class="main">
             <!-- this is main content -->
             <div class="wrapper"> 
-            <a href="login.php"><img src="https://see.fontimg.com/api/renderfont4/VGORe/eyJyIjoiZnMiLCJoIjozMywidyI6MTUwMCwiZnMiOjIyLCJmZ2MiOiIjRkZGRUZFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/U01JVC1FLVNIT1A/minecraft-ten.png" alt="Minecraft fonts"></a>
+            <a href="login2.php"><img src="https://see.fontimg.com/api/renderfont4/VGORe/eyJyIjoiZnMiLCJoIjozMywidyI6MTUwMCwiZnMiOjIyLCJmZ2MiOiIjRkZGRUZFIiwiYmdjIjoiI0ZGRkZGRiIsInQiOjF9/U01JVC1FLVNIT1A/minecraft-ten.png" alt="Minecraft fonts"></a>
                 <form action="login2.php" method="post">
                     <input class="input1" type="email" class="input" name="email"  id="name" placeholder="Email" required="required" >
                     <input class ="input2" type="password" class="input" name="password" id="password" placeholder="Password" required="required" >
