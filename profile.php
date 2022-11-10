@@ -54,7 +54,7 @@ $con->close();
               
              
             </div>
-            <div class="ms-3" style="margin-top: 20px;">
+            <div class="ms-3" style="margin-top: 70px;">
               <h6>
                 <?php
               echo "Name : ".$row["name"];
@@ -64,7 +64,7 @@ $con->close();
               echo "Email : ".$row["email"];
               echo "<br>";
               echo "<br>";
-              echo "password : ".$row["password"];
+              // echo "password : ".$row["password"];
               
              
              
@@ -80,11 +80,11 @@ $con->close();
           </div>
           <div class="p-4 text-black" style="background-color: #f8f9fa;">
             <div class="d-flex justify-content-end text-center py-1" >
-              <form class="d-flex" method="post">
+              <!-- <form class="d-flex" method="post">
             <button type="submit" class="btn btn-outline-dark mt-2" name="edit" data-mdb-ripple-color="light" style="z-index: 1;">
                 Edit profile
               </button>
-              </form>
+              </form> -->
             </div>
           </div>
           <div class="card-body p-4 text-black">
@@ -100,10 +100,9 @@ $con->close();
                 
               </div>
             </div>
-            <div class="d-flex justify-content-between align-items-center mb-4">
-              <p class="lead fw-normal mb-0">Recent photos</p>
-              <p class="mb-0"><a href="#!" class="text-muted">Show all</a></p>
-            </div>
+            <!-- <div class="d-flex justify-content-between align-items-center mb-4">
+        
+            </div> -->
             <div class="row g-2">
               <div class="col mb-2">
                 <!-- <img src="https://mdbcdn.b-cdn.net/img/Photos/Lightbox/Original/img%20(112).webp"
