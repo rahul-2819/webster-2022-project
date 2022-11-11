@@ -66,7 +66,7 @@ $con->close();
     <style>
         body {
             color: #fff;
-            background: #19aa8d;
+            background: gray;
             font-family: 'Roboto', sans-serif;
         }
 
